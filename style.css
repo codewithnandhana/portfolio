@@ -139,4 +139,17 @@ from { width: 0 }
 to { width: 100% }
 }
 
+section {
+background: rgba(255,255,255,0.02);
+border-radius:20px;
+padding:40px;
+margin:40px 0;
+box-shadow: 0 0 30px rgba(56,189,248,0.15);
+transition:0.3s;
+}
+
+section:hover {
+box-shadow: 0 0 40px rgba(56,189,248,0.35);
+transform: translateY(-6px);
+}
 
