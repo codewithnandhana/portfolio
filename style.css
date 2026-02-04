@@ -112,14 +112,18 @@ footer {
   border-top: 1px solid #1f2933;
 }
 .fade {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.8s ease;
+animation: fadeUp 1.2s ease forwards;
+opacity:0;
 }
 
-.fade.show {
-  opacity: 1;
-  transform: translateY(0);
+@keyframes fadeUp {
+from {
+opacity:0;
+transform:translateY(40px);
 }
-
+to {
+opacity:1;
+transform:translateY(0);
+}
+}
 
